@@ -11,3 +11,150 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.inc_btn{
+
+  background-color:rgb(110,116,126);
+  /* margin: 0px 5px; */
+  font-size: 7.5pt;
+  padding: 7px 9px 7px 9px;
+  border: none;
+  border-radius: 3px;
+  outline:white;
+  position: relative;
+  left: 15px;
+  cursor: pointer;
+
+}
+
+.inc_btn:focus{
+  border-color:rgb(110,116,126);
+  box-shadow: 0px 0 6px rgb(110,116,126);
+
+}
+
+.dec_btn{
+
+  background-color:rgb(78, 156, 168);
+  font-size: 7.5pt;
+  padding: 7px 9px 7px 9px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  /* opacity: .6; */
+  position: relative;
+  left: 15px;
+  cursor: pointer;
+
+  
+}
+
+.dec_btn:focus{
+  border-color:rgb(78, 156, 168);
+  box-shadow: 0px 0 6px rgb(78, 156, 168);
+
+}
+
+.dis{
+  opacity: .5;
+
+
+}
+
+.not_dis{
+  opacity: 5;
+
+}
+.reset_btn{
+background-color:  rgb(40,166,71);
+font-size: 9pt;
+padding: 7px 8px 7px 8px;
+border: none;
+position: relative;
+left: 2px;
+border-radius:3px;
+outline: none;
+cursor: pointer;
+/* background-image: url('./repeat.png'); */
+
+}
+
+.reset_btn:focus{
+  border-color:rgb(40,166,71);
+  box-shadow: 0px 0 6px rgb(40,166,71);
+
+}
+
+.items_count{
+  background-color:rgb(78, 156, 168);
+  /* margin: 0 0px; */
+  padding: 0px 17px;
+  font-size: 10pt;
+  margin-left: 7px;
+  border-radius: 50px;
+  position: relative;
+  top: -4px;
+  color: white;
+  display: inline;
+}
+
+.base_table{
+  position: relative;
+  left: 330px;
+  top: 0px;
+}
+
+.header{
+  width: 100%;
+  background-color: rgb(251, 245, 245);
+  height: 34px;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+.items_span{
+  font-size: 11.5pt;
+  position: relative;
+  top: -4px;
+  margin-left: 5px;
+}
+
+.arrow{
+font-weight: bolder;
+}
+
+.label{
+  margin-right: 26px;
+  padding: 2px 6px 2px 6px;
+  position: relative;
+  top: 1px;
+  /* margin-top: 2px; */
+  /* padding: 7px 9px 7px 9px; */
+
+  background-color:rgb(2,123,253) ;
+  color: white;
+  border-radius: 2px;
+  /* font-weight: bold; */
+
+}
+
+.zero_label{
+  /* margin-right: 30px;   here */
+  padding: 3px 6px 3px 6px;
+  position: relative;
+  top: 0px;
+  /* margin-top: 2px; */
+  /* padding: 7px 9px 7px 9px; */
+
+  background-color:rgb(255,193,10) ;
+  color: black;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+
+
+table tr{
+  height: 35px;
+}
